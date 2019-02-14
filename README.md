@@ -1,6 +1,7 @@
 # Invalid Credit Card Detector
+
 ### Description:
-The Luhn Algorithm uses a simple checksum method on the last digit of a Credit Card number to validate the sequence as a potentially usable Credit Card number.  The number sequence is considered a potentially valid Credit Card number if the checksum mod 10 is equal to zero.  This technique of validation assists with the detection of errors such as incorrect digit entries.  <br>
+This Program applies the Luhn Algorithm to a provided Credit Card number and advises the operator if a fraudulent number is detected.  The Luhn Algorithm uses a simple checksum method on the last digit of a Credit Card number to validate the sequence as a potentially usable Credit Card number.  The number sequence is considered valid if the checksum mod 10 is equal to zero.  This technique of validation assists with the detection of errors such as incorrect digit entries.  <br>
 
 #### Example of usage:
 <p align="center">
